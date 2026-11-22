@@ -19,20 +19,20 @@
 
 ## 安装
 
-### 一条命令（推荐）
+### 桌面版 DSH（不用命令行，推荐）
+
+1. 打开 <https://github.com/RadeyesDrosophilaProMax/dsh-tts-service>
+2. 点 **Code → Download ZIP**，解压到**一个固定位置**（别放临时目录，插件会长期读这个文件夹）
+3. 打开 DSH → 侧边栏 **插件** → 用「从文件夹 / 本地目录安装」那一项，选中解压出来的 `dsh-tts-service` 文件夹
+4. **重启 DSH**，侧边栏出现「本地语音」图标
+
+> ZIP 里的 `install.bat` 也能用：双击它，脚本会打开插件目录并提示下一步。
+
+### 命令行版 DSH
 
 ```bash
-dsh plugin --profile desktop add github:你的用户名/dsh-tts-service
+dsh plugin --profile desktop add github:RadeyesDrosophilaProMax/dsh-tts-service
 ```
-
-### 或者：下载后用本地目录安装
-
-```bash
-git clone https://github.com/你的用户名/dsh-tts-service
-dsh plugin --profile desktop add ./dsh-tts-service
-```
-
-装完**重启 DSH**，侧边栏会出现「本地语音」图标。
 
 ## 配置
 
