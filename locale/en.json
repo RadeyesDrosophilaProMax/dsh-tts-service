@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Local Speech",
+    "description": "Loads the local Qwen3-TTS synthesis service with DSH (127.0.0.1:7890 by default), adds a sidebar panel for previewing voices and emotion, and restarts the service after a crash."
+  }
+}

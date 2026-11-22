@@ -1,0 +1,12 @@
+# @local/dsh-tts-service — 本地语音合成服务的生命周期管理。
+# 只做一件事：DSH 启动时把 Qwen3-TTS 服务拉起来，DSH 退出时把它收掉。
+- insert:
+    - id: tts-service
+      name: '@local/dsh-tts-service'
+      config:
+        python: 'D:\DSHAI\qwen3tts\Qwen3-TTS-GGUF\.venv\Scripts\python.exe'
+        server: 'D:\DSHAI\qwen3tts\server_gguf.py'
+        cwd: 'D:\DSHAI\qwen3tts\Qwen3-TTS-GGUF'
+        port: 7890
+        autoStart: true
+        autoRestart: true
